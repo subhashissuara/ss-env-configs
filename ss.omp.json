@@ -48,8 +48,8 @@
             "foreground": "#ffffff",
             "background": "#FF0000",
             "properties": {
-              "playing_icon": "\uE602 ",
-              "paused_icon": "\uF8E3 ",
+              "playing_icon": "\uE602",
+              "paused_icon": "\uF8E3",
               "stopped_icon": "\uF04D"
             },
             "style": "plain",
@@ -65,7 +65,7 @@
               "{{ if gt .Behind 0 }}#B388FB{{ end }}"
             ],
             "properties": {
-              "branch_icon": " \ue0a0 ",
+              "branch_icon": " \ue0a0",
               "fetch_stash_count": true,
               "fetch_status": true,
               "fetch_upstream_icon": true,
@@ -181,7 +181,7 @@
             "background": "#7FD5EA",
             "foreground": "p:black",
             "style": "plain",
-            "template": " \ue40f {{ .Full }} ",
+            "template": " \ufcd1 {{ .Full }} ",
             "type": "go"
           },
           {
@@ -195,7 +195,7 @@
             "background": "#ff7b00",
             "foreground": "p:black",
             "style": "plain",
-            "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}\uf487 {{.Version}}{{ end }} {{ if .Name }}{{ .Name }}{{ end }}{{ end }} ",
+            "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }}\uf8d6 {{.Version}}{{ end }} {{ if .Name }}{{ .Name }}{{ end }}{{ end }} ",
             "type": "project"
           }
         ]
@@ -215,7 +215,7 @@
             "background": "transparent",
             "foreground": "#b3ffde",
             "properties": {
-              "apikey": "<API_KEY>",
+              "apikey": "7fa22aadd6074d52fc83ef111953b070",
               "location": "GENEVA,CH",
               "units": "metric",
               "http_timeout": 500,
